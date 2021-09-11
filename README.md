@@ -40,6 +40,11 @@ Marque esse projeto com uma estrela 🌟
 3. _Infraestrutura_: Publicar aplicação com seu SSL customizado em máquina virtual
    - Você aprendeu a gerar SSL local, o desafio é você criar um certificado (pode ser com o _Let's
      Encrypt_) e adicionar na sua aplicação
+4. _Extra_: Corrigir % do upload de 2 ou mais arquivos
+5. _Extra_: Teste da rota get backend
+6. _Extra_: Tratamentos de erros + 100% coverage;
+7. _Extra_: Continuar o projeto (adicionar na nuvem, baxar sobre demanda, etc...)
+8. _Publicar no discord_.
 
 ### Considerações
 
