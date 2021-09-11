@@ -9,9 +9,8 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const defaultDownloadsFolder = resolve(__dirname, "../", "downloads");
 
 export default class Routes {
-  io;
-
   constructor(downloadsFolder = defaultDownloadsFolder) {
+    this.io = {};
     this.downloadsFolder = downloadsFolder;
     this.fileHelper = FileHelper;
   }
@@ -31,8 +30,9 @@ export default class Routes {
 
   async post(req, res) {
     const { headers } = req;
-
-    const { socketId } = parse(req.url, true);
+    const {
+      query: { socketId },
+    } = parse(req.url, true);
 
     const uploadHandler = new UploadHandler({
       socketId,

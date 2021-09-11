@@ -20,11 +20,11 @@ Marque esse projeto com uma estrela 🌟
   - [x] Deve atingir 100% de cobertura de código em testes
 
 - Web App
-  - [] Deve listar arquivos baixados
-  - [] Deve permitir fazer upload de arquivos de qualquer tamanho
-  - [] Deve ter função de upload via botão
-  - [] Deve exibir progresso de upload
-  - [] Deve ter função de upload via drag and drop
+  - [x] Deve listar arquivos baixados
+  - [x] Deve permitir fazer upload de arquivos de qualquer tamanho
+  - [x] Deve ter função de upload via botão
+  - [x] Deve ter função de upload via drag and drop
+  - [x] Deve exibir progresso de upload
 
 ## Desafios para alunos pós projeto
 
@@ -53,3 +53,5 @@ Marque esse projeto com uma estrela 🌟
 - O Layout foi adaptado a partir do projeto do brasileiro
   [Leonardo Santo](https://github.com/leoespsanto) disponibilizado no
   [codepen](https://codepen.io/leoespsanto/pen/KZMMKG).
+
+## Node v:16

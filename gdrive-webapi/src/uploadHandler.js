@@ -1,7 +1,7 @@
 import Busboy from "busboy";
 import { pipeline } from "stream/promises";
 import fs from "fs";
-import { logger } from "./logger";
+import { logger } from "./logger.js";
 import { resolve } from "path";
 
 export default class UploadHandler {
